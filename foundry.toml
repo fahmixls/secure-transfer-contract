@@ -1,9 +1,10 @@
 [profile.default]
 src = "src"
 out = "out"
+viaIR = true
 libs = ["lib"]
 
-remapping: [
+remapping = [
   "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
 ]
 
