@@ -10,10 +10,10 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 /**
  * @title SecureTransferLink
  * @notice Gas-optimized secure token transfer system with direct payment and link/QR capabilities
- * @author STRAPT Team
+ * @author Fahmi
  * @dev Implements CEI pattern, uses SafeERC20, and optimizes gas usage with packed structs
  */
-contract SecureTransferLink is ReentrancyGuard, Ownable, Pausable {
+contract SecureTransfer is ReentrancyGuard, Ownable, Pausable {
     using SafeERC20 for IERC20;
 
     // ========== CONSTANTS ==========
